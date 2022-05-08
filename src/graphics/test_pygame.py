@@ -9,7 +9,7 @@ def main():
     # initialize the pygame module
     pygame.init()
     # load and set the logo
-    logo = pygame.image.load(os.path.join(current_dir, "../../resources/graphic/baba_raze.png"))
+    logo = pygame.image.load(os.path.join(current_dir, "../../resources/graphics/baba_raze.png"))
     pygame.display.set_icon(logo)
     pygame.display.set_caption("minimal program")
      
@@ -22,7 +22,7 @@ def main():
     running = True
      
     # main loop
-    logo1 = pygame.image.load(os.path.join(current_dir, "../../resources/graphic/baba_raze.png"))
+    logo1 = pygame.image.load(os.path.join(current_dir, "../../resources/graphics/baba_raze.png"))
     logo1_width = logo1.get_width()
     logo1_height = logo1.get_height()
 
