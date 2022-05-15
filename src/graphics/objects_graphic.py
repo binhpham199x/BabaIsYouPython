@@ -1,6 +1,4 @@
 import sys
-
-from regex import F
 sys.path.append('D:\\PythonProject\\BabaIsYouPython\\src')
 
 from gameplay import Baba, Rock, Wall, Water, Skull, Flag, Word
@@ -76,7 +74,7 @@ class WordGraphic(Word):
         #     push_image = pygame.image.load(os.path.join(current_dir, "../../resources/graphics/baba_raze.png"))
 
         #     window.blit(push_image,[x,y])
-            
+
         # elif self.value == 'sink':
         #     sink_image = pygame.image.load(os.path.join(current_dir, "../../resources/graphics/baba_raze.png"))
 
@@ -86,12 +84,12 @@ class WordGraphic(Word):
         #     defeat_image = pygame.image.load(os.path.join(current_dir, "../../resources/graphics/baba_raze.png"))
 
         #     window.blit(defeat_image,[x,y])
-            
+
         # elif self.value == 'stop':
         #     stop_image = pygame.image.load(os.path.join(current_dir, "../../resources/graphics/baba_raze.png"))
 
         #     window.blit(stop_image,[x,y])
-            
+
         # elif self.value == 'win':
         #     win_image = pygame.image.load(os.path.join(current_dir, "../../resources/graphics/baba_raze.png"))
 
@@ -114,6 +112,5 @@ if __name__ == '__main__':
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
-       
         
         pygame.display.update()
