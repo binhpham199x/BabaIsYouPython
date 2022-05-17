@@ -62,7 +62,7 @@ class Gameplay:
         for i in range(self.rows):
             for j in range(self.columns):
                 if self.tiles[i,j].find_word() == "is":
-                    print("yes")
+                    # print("yes")
                     
                     #left -> right
                     if j-1 >= 0 and j+1 <=self.columns-1:
@@ -82,9 +82,12 @@ class Gameplay:
             for col in range(self.columns):
                 temp = self.tiles[row,col]
                 for obj in temp.objects:
+                    if obj.name != 'word':
+                        obj.property = ''
                     for rule in self.rules:
                         if obj.name == rule.first:
                             obj.property = rule.second
+
 
 
 

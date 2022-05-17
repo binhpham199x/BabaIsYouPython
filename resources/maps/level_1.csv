@@ -1,12 +1,12 @@
 ﻿wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall
-wall,WALL,IS,STOP,,,,,,,,,,,wall
+wall,,,,,,,,,,,,,,wall
 wall,BABA,IS,YOU,,,,,,,wall,,,,wall
 wall,FLAG,IS,WIN,,,,,,,wall,,,,wall
 wall,SKULL,IS,DEFEAT,,,,,baba,,wall,,flag/skull,,wall
 wall,,,,,,,,,,wall,,,,wall
 wall,,,,,,,,,,wall,,,,wall
-wall,,,,,,,,,,wall,,,,wall
-wall,,,,,,,,,,wall,,,,wall
-wall,,,,,,,,,,wall,,,,wall
-wall,,,,,,,,,,,,,,wall
+wall,,,,WALL,,,,,,wall,,,,wall
+wall,,,,IS,,,,,,wall,,,,wall
+wall,,,,STOP,,,,,,wall,,,,wall
+wall,,,,,,,,,,flag,,,,wall
 wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall
