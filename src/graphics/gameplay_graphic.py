@@ -56,7 +56,7 @@ class GameplayGraphic(Gameplay):
             for col in range(self.columns):
                 t = self.tiles[row,col]
                 for obj in t.objects:
-                    obj.render(window,40*col,40*row)
+                    obj.render(window,1+40*col,1+40*row)
 
 
 
