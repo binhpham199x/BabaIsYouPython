@@ -1,5 +1,7 @@
 import sys
-sys.path.append('D:\\PythonProject\\BabaIsYouPython\\src')
+import os
+current_dir = os.path.dirname(__file__) 
+sys.path.append(os.path.join(current_dir,".."))
 
 from gameplay import Gameplay, Tile
 from graphics.objects_graphic import *
@@ -7,7 +9,6 @@ import numpy as np
 import pandas as pd
 
 import pygame
-import os
 
 current_dir = os.path.dirname(__file__) 
 

@@ -1,13 +1,11 @@
 import sys
-from numpy import blackman
-
-from pyparsing import White
-sys.path.append('D:\\PythonProject\\BabaIsYouPython\\src')
+import os
+current_dir = os.path.dirname(__file__) 
+sys.path.append(os.path.join(current_dir,"."))
 
 from graphics import GameplayGraphic
 import pygame
-import os
-current_dir = os.path.dirname(__file__) 
+
 
 
 class MainWindow:
