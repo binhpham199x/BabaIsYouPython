@@ -19,8 +19,8 @@ class MainWindow:
         self.window_height = 720
 
         self.screen = pygame.display.set_mode((self.window_width,self.window_height))
-        # self.background_music = pygame.mixer.music.load(os.path.join(current_dir, '../resources/graphics/Music.mp3'))
-        # pygame.mixer.music.play()
+        self.background_music = pygame.mixer.music.load(os.path.join(current_dir, '../resources/graphics/Music.mp3'))
+        pygame.mixer.music.play()
 
 
 

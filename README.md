@@ -1,10 +1,10 @@
-# BabaIsYouPython
+# BabaIsYouPython Phake
 
-Fun game for sure
+Fun game for sure!
 For educational purpose only.
 ------------------
 You can find most of coding part of this project in the file: 
-note.ipynb (folder: src/gamplay)
+note.ipynb (folder: src/gameplay)
 
 
 ------------------

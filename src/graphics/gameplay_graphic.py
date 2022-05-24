@@ -53,11 +53,13 @@ class GameplayGraphic(Gameplay):
                         self.tiles[row,col].add_object(WordGraphic(value.lower()))
 
     def render(self, window):
+        left_margin = (1280-self.columns*42)/2
+        upper_margin = (720-self.rows*42)/2
         for row in range(self.rows):
             for col in range(self.columns):
                 t = self.tiles[row,col]
                 for obj in t.objects:
-                    obj.render(window,1+40*col,1+40*row)
+                    obj.render(window,left_margin+42*col,upper_margin+42*row)
 
 
 
